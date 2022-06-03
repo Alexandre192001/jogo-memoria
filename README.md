@@ -14,7 +14,7 @@
 
 <hr>
 <h2>⚜️Descrição⚜️</h2>
-<p>Jogo da memória com o tema naruto, foi de grande aprendizado o desenvolvimento desse jogo, aprendi muitas coisas sobre classList, evento e Comportamento de elemnto pelo css. </p>
+<p>Jogo da memória com o tema naruto, foi de grande aprendizado o desenvolvimento desse jogo, aprendi muitas coisas sobre classList, evento e Comportamento de elemento pelo css. </p>
 <hr>
 <h2>⚜️Funcionalidades:⚜️</h2>
 <ul>
