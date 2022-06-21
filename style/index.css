@@ -1,24 +1,31 @@
+@charset "UTF-8";
+/*Zerando valores padrões dos navegadores*/
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
 }
 
+/*Corpo da pagina*/
 body {
   background-color: #565462;
   height: 100vh;
   overflow: hidden;
 }
 
+/*Container main com o jogo*/
 .container {
   height: 30rem;
-  width: 70rem;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin: auto;
   perspective: 1000px;
+  /*Cards*/
+  /*elemento pai das costas do card*/
+  /*Imagem de verso da cartar*/
 }
 .container .card {
   position: relative;
@@ -34,6 +41,9 @@ body {
   transform: scale(1);
   transform-style: preserve-3d;
   transition: transform 0.9s;
+  /*Adicionando evento de ativar elemento*/
+  /*Frente e costa das imagens*/
+  /*Imagem de verso*/
 }
 .container .card:active {
   transform: scale(0.97);
